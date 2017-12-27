@@ -1,4 +1,4 @@
-import { CommandModule, Message } from "botyo-api";
+import { AbstractCommandModule, Message } from "botyo-api";
 import * as url from "url";
 import { Readable } from "stream";
 import DuplexThrough from "./DuplexThrough";
@@ -7,7 +7,7 @@ import * as GoogleImages from "google-images";
 import * as mime from "mime-types";
 import * as path from "path";
 
-export default class ShowMeCommand extends CommandModule
+export default class ShowMeCommand extends AbstractCommandModule
 {
     private readonly imagesClient: any;
 
