@@ -92,8 +92,7 @@ export default class ShowMeCommand extends AbstractCommandModule
     {
         const dt = new DuplexThrough({ highWaterMark: 64 * 1024 });
 
-
-        const pathname = url.parse(theUrl).pathname;
+        const pathname = url.parse(theUrl).pathname || "image.jpg";
         const mimeType = mime.lookup(pathname as string);
         let extension = path.extname(pathname as string);
         // fallback to jpg if the extension is missing or not one for an image
