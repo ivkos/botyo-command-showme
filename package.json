@@ -1,6 +1,6 @@
 {
   "name": "botyo-command-showme",
-  "version": "2.0.0-alpha.4",
+  "version": "2.0.0",
   "description": "ShowMe command for Botyo",
   "keywords": [
     "botyo",
@@ -33,17 +33,17 @@
   },
   "homepage": "https://github.com/ivkos/botyo-command-showme#readme",
   "dependencies": {
-    "botyo-api": "^2.0.0-alpha.31",
+    "botyo-api": "^2.0.1",
     "google-images": "^2.1.0",
-    "mime-types": "^2.1.17",
-    "request": "^2.83.0"
+    "mime-types": "^2.1.18",
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "@types/google-images": "^2.1.0",
     "@types/mime-types": "^2.1.0",
-    "@types/request": "^2.0.9",
+    "@types/request": "^2.47.0",
     "rimraf": "^2.6.2",
-    "typescript": "^2.6.2"
+    "typescript": "^2.9.1"
   },
   "engines": {
     "node": ">=6.5.0"
